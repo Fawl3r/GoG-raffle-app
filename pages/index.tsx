@@ -48,7 +48,7 @@ const Home: NextPage = () => {
       <Image
         src="https://static.wixstatic.com/media/1808ae_d7e2677e53784c8eba07a386e424d352~mv2.png"
         alt="Logo"
-        boxSize="230px"
+        boxSize="255px"
         position="absolute"
         zIndex="2"
         top="-145px"

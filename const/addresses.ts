@@ -1,3 +1,3 @@
 export const LOTTERY_CONTRACT_ADDRESS = '0xCa40a8Fb3ad4e42491a5fC2C1A1f0A68086B526E';
 
-export const HERO_IMAGE_URL = 'ipfs://QmcKMR7teTAwHey4PysgQphnQNhG1rhFsiViEqmNY3PYj6/19_08_2023_20_22_19_4580000.gif';
+export const HERO_IMAGE_URL = 'ipfs://QmQgzSxZeRCPtG1JN3Vv3G8vhBmMNWsCuJBcPkyQH8usBU/LOGO_GoG_P.png';
