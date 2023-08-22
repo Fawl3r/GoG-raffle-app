@@ -1,3 +1,3 @@
-export const LOTTERY_CONTRACT_ADDRESS = '0xc362d21241cA57987ac8517bCc2b34697c5C5266';
+export const LOTTERY_CONTRACT_ADDRESS = '0xCa40a8Fb3ad4e42491a5fC2C1A1f0A68086B526E';
 
-export const HERO_IMAGE_URL = 'ipfs://QmS1gz2fNL6DfnfebNsY3KkdYh3vT4jcEArkndao6eCk5Z/Untitled%20design%20(14).png';
+export const HERO_IMAGE_URL = 'ipfs://QmcKMR7teTAwHey4PysgQphnQNhG1rhFsiViEqmNY3PYj6/19_08_2023_20_22_19_4580000.gif';
