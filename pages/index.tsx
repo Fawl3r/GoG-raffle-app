@@ -30,7 +30,7 @@ const Home: NextPage = () => {
     isLoading: totalEntriesLoading
   } = useContractRead(contract, "totalEntries");
 
-  const [ticketAmount, setTicketAmount] = useState(0);
+  const [ticketAmount, setTicketAmount] = useState(1);
   const ticketCostSubmit = parseFloat(ticketCostInEther) * ticketAmount;
 
   function increaseTicketAmount() {
