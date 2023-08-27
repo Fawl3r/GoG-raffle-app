@@ -38,7 +38,7 @@ const Home: NextPage = () => {
   }
 
   function decreaseTicketAmount() {
-    if (ticketAmount > 0) {
+    if (ticketAmount > 1) {
       setTicketAmount(ticketAmount - 1);
     }
   }
