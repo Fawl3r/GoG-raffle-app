@@ -3,7 +3,7 @@ import { Web3Button, useContract, useContractRead } from "@thirdweb-dev/react";
 import { LOTTERY_CONTRACT_ADDRESS } from "../const/addresses";
 import { ethers } from "ethers";
 
-export default function withdrawBalance() {
+export default function WithdrawBalance() {
     const {
         contract
     } = useContract(LOTTERY_CONTRACT_ADDRESS);
@@ -18,7 +18,7 @@ export default function withdrawBalance() {
             <Box>
                 <Text fontWeight={"bold"} mb={4} fontSize={"xl"}>Contract Balance</Text>
                 {!contractBalanceLoading ? (
-                    <Text fontSize={"xl"}>{ethers.utils.formatEther(contractBalance)} MATIC</Text>
+                    <Text fontSize={"xl"}>{ethers.utils.formatEther(contractBalance)} BNB</Text>
                 ) : (
                     <Spinner />
                 )}
