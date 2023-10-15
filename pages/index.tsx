@@ -99,18 +99,21 @@ const Home: NextPage = () => {
                   </Flex>
                   
                   <Web3Button
-                    contractAddress={LOTTERY_CONTRACT_ADDRESS}
-                    action={(contract) => contract.call(
-                      "buyTicket",
-                      [
-                        ticketAmount
-                      ],
-                      {
-                        value: ethers.utils.parseEther(ticketCostSubmit.toString())
-                      }
-                    )}
-                    isDisabled={!lotteryStatus}
-                  >{`Buy Ticket(s)`}</Web3Button>
+  contractAddress={LOTTERY_CONTRACT_ADDRESS}
+  action={(contract) =>
+    contract.call(
+      "buyTicket",
+      [ticketAmount],
+      {
+        value: ethers.utils.parseEther(ticketCostSubmit.toString()),
+      }
+    )
+  }
+  isDisabled={!lotteryStatus}
+  style={{ color: "black" }} // Add this style property
+>
+  Buy Ticket(s)
+</Web3Button>
                 </Flex>
               ) : (
                 <Text>Connect wallet to buy ticket.</Text>
