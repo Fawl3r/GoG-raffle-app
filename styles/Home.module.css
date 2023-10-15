@@ -1,6 +1,8 @@
 .container {
   padding: 0 2rem;
+  background-color: #101538; /* Change this to the color you want */
 }
+
 
 .main {
   min-height: 100vh;
