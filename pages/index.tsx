@@ -83,20 +83,17 @@ const Home: NextPage = () => {
               {address ? (
                 <Flex flexDirection={"row"}>
                   <Flex flexDirection={"row"} w={"25%"} mr={"40px"}>
-                    <Button
-                      onClick={decreaseTicketAmount}
-                    >-</Button>
-                    <Input
-                      value={ticketAmount}
-                      type={"number"}
-                      onChange={(e) => setTicketAmount(parseInt(e.target.value))}
-                      textAlign={"center"}
-                      mx={2}
-                    />
-                    <Button
-                      onClick={increaseTicketAmount}
-                    >+</Button>
-                  </Flex>
+  <Button onClick={decreaseTicketAmount}>-</Button>
+  <Input
+    value={ticketAmount}
+    type="number"
+    onChange={(e) => setTicketAmount(parseInt(e.target.value))}
+    textAlign="center"
+    mx={2}
+    style={{ color: "black" }} // Add this style property here
+  />
+  <Button onClick={increaseTicketAmount}>+</Button>
+</Flex>
                   
                   <Web3Button
   contractAddress={LOTTERY_CONTRACT_ADDRESS}
