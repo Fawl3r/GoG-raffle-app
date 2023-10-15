@@ -86,11 +86,11 @@ const Home: NextPage = () => {
   <Button onClick={decreaseTicketAmount}>-</Button>
   <Input
   value={ticketAmount}
-  type="tel" // Change the type to "tel"
+  type="number" // Change the type to "number"
   onChange={(e) => setTicketAmount(parseInt(e.target.value))}
   textAlign="center"
   mx={2}
-  style={{ color: "black" }} // Add this style property here
+  style={{ color: "black" }}
 />
   <Button onClick={increaseTicketAmount}>+</Button>
 </Flex>
