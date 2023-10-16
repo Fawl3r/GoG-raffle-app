@@ -48,11 +48,11 @@ const Home: NextPage = () => {
       <Image
         src="https://static.wixstatic.com/media/1808ae_d7e2677e53784c8eba07a386e424d352~mv2.png"
         alt="Logo"
-        boxSize="255px"
+        boxSize="125px"
         position="absolute"
         zIndex="2"
-        top="-145px"
-        left="10px"
+        top="-75px"
+        left="190px"
       />
       <Container maxW={"1440px"}>
         <SimpleGrid columns={2} spacing={4} minH={"60vh"}>
